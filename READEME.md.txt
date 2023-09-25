@@ -1,0 +1,1 @@
+This repository will store/manage the go language source code used in the 2023 open source programming class
