@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 )
 
 func main() {
@@ -14,6 +15,7 @@ func main() {
 	if err != nil {                       //conditionals
 		log.Fatal(err)
 	}
-
+	inputScore = string.TrimSpace(inputScore)
+	score, err := strconv.ParseFloat
 	fmt.Println(input)
 }
