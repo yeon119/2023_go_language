@@ -17,7 +17,19 @@ func main() {
 	fmt.Println(test[3])
 	fmt.Println((test))
 
-	fmt.Print("%#v\n", primes)
-	fmt.Print("%#v\n", test)
+	// i := 0
+	// for i < 6 { // run time error !!
+	// 	fmt.Println(test[i])
+	// 	i++
+	// }
+	i := 0
+	for i < len(test) { // len 함수를 이용하여 panic을/를 방지
+		fmt.Println(test[i])
+		i++
+	}
 
+	for idx, prime := range primes {
+		fmt.Println(idx, prime)
+
+	}
 }
