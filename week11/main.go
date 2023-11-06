@@ -13,5 +13,11 @@ func main() {
 	for i := 0; i < 3; i++ {
 		fmt.Println(primes[i])
 	}
+	test := [5]bool{true, true, true}
+	fmt.Println(test[3])
+	fmt.Println((test))
+
+	fmt.Print("%#v\n", primes)
+	fmt.Print("%#v\n", test)
 
 }
