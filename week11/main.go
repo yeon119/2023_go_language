@@ -28,8 +28,16 @@ func main() {
 		i++
 	}
 
-	for idx, prime := range primes {
-		fmt.Println(idx, prime)
+	for prime := range primes { // index만 출력
+		fmt.Println(prime)
 
+	}
+
+	// 	for idx ,prime := range primes { // idx를 출력하지않아 컴파일 에러
+	// 		fmt.Println(prime)
+	// }
+
+	for _, prime := range primes { // index만 출력
+		fmt.Println(prime)
 	}
 }
