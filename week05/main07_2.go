@@ -40,6 +40,6 @@ func main() {
 	} else if guess >target {
 		fmt..Println("저런 너의 답은 높다")
 	}
-
+	
 
 }
