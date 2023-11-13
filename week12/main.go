@@ -21,6 +21,13 @@ func main() {
 	for i := 0; i < len(s); i++ {
 		fmt.Println(s[i])
 	}
+
+	test := [3]string{"inha", "go", "student"}
+	testS := test[:2]
+	fmt.Println(len(testS))
+
+	test2S := test[1:]
+	fmt.Println(test2S[1])
 	// s := make([]int, 5)
 	// for _, value := range s {
 	// 	fmt.Println(value)
