@@ -10,9 +10,10 @@ func main() {
 	a[2] = "c"
 	a[3] = "d"
 	as := a[0:2]
+	as[1] = "z"
 	c := append(a, "x", "y")
 	fmt.Println(a, len(a), cap(a))
 	fmt.Println(a, len(a), cap(a))
 	fmt.Println(c, len(c), cap(c))
-	as[1] = "z"
+
 }
